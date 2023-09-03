@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive personal portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--header section starts -->
+    <header>
+        <div class="user">
+            <img class="logo" src="W.PNG" alt="" height="40%">
+            <h3 class="name">Wasim Ahmad</h3>
+            <p class="post">Web Developer</p>
+
+        </div>
+        <nav class="navbar">
+            <ul>
+                <a href="javascript:void(0)"></a>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <div  id="menu" class="fas fa-bars" >
+       
+      
+    </div>
+    
+    
+    <section class="home " id="home">
+        <h3>Hi There !</h3>
+        <h1>I'M <span>Wasim Ahmad</span></h1>
+        <p> A web Developer. Self-driven, quick starter, passionate programmer with curious mind who loves solving a very complex, problems. My Mission to create own voices and make more resonant work   </p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i> </button></a>
+    </section>
+
+    <!--About Section Starts-->
+    <section class="about" id="about">
+        
+        <h1 class="heading"><span>about</span>me</h1>
+        
+        <div class="row">
+
+            <div class="info">
+
+                <h3> <span>name:</span>Wasim Ahmad</h3>
+                <h3> <span>age:</span>22</h3>
+                <h3> <span>Qualification</span>B.Tech Computer Science</h3>
+                <h3> <span>Work </span>Web Developer</h3>
+                <h3> <span>Skills</span> HTML,CSS, JavaScript ,ExpressJS ,Nodejs</h3>
+                <h3> <span>languae:</span>Urdu ,Kashmir & English</h3>
+                <a href="#"><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+            </div>
+
+            <div class="counter">
+
+                <div class="box">
+                    <span>0</span>
+                    <h3>years of Experiance</h3>
+
+                </div>
+                <div class="box">
+                    <span>2+</span>
+                    <h3>Project completed</h3>
+                </div>
+
+                
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--- Eduction Section Starts -->
+    <section class="education" id="education">
+
+        <h1 class="heading"> My <span>Education</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2016</span>
+                <h3>Completed 10th</h3>
+                <P>completed my 10th from Govt Higher Secoundary School Delina Baramulla </P>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020</span>
+                <h3>Completed 3years Diploma in Engineering </h3>
+                <P>I have completed 3years dipolma Polyetechnic in Govt Polyetechnic college Baramulla J&K </P>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>Computer Science Engineering </h3>
+                <P>Currently I'm  a Student in Chandigrah Group Of Colleges Landran   </P>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022</span>
+                <h3>Web Developer </h3>
+                <P>Working as a Freelancer </P>
+            </div>
+        </div>
+
+    </section>
+
+    <!---PortFolio section Starts-->
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading"> My <span>Portfolio</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="my3.PNG" alt="">
+            </div>
+
+            <div class="box">
+                <img src="my1.jpg" alt="">
+            </div> 
+            
+            <div class="box">
+                <img src="p.PNG" alt="">
+            </div>
+            
+            <div class="box">
+                <img src="my4.PNG" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Contact Scetion Starts-->
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> Contact <span>Me</span></h1>
+        
+        <div class="row">
+
+            <div class="content">
+                <h3 class="title">contact info</h3>
+
+                <div class="info">
+
+                    <h3><i class="fas fa-envelope"></i>darwaseem65@gmail.com</h3>
+                    <h3><i class="fas fa-phone"></i>+91-7780-80-4615</h3>
+                    <h3><i class="fas fa-location"></i>Baramulla, Jammu & Kashmir Pin-193202</h3>
+
+                </div>
+            </div>
+
+            <form  action="https://formspree.io/f/mjvdkpqb" method="POST">
+
+                <input type="text" placeholder="name" name="name" id="name" class="box" required>
+                <input type="email" placeholder="email" name="email" id="email" class="box" required>
+                <input type="text" placeholder="subject" name="subject" id="subject" class="box" required>
+
+                
+
+                <textarea name="" id="message" cols="30" rows="10" class="box message" required placeholder="message"></textarea>
+                
+                <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!--Scroll top button-->
+
+    <a href="#home" class="top">
+        <img src="scroll-top-img.png" alt="">
+    </a>
+
+   
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script src="script.js"></script>
+
+</html>
